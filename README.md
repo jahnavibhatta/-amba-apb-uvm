@@ -12,7 +12,9 @@ Verilog testbench and a UVM environment. Built and simulated in Xilinx Vivado 20
 - APB3 slave with IDLE -> SETUP -> ACCESS operation, zero wait states (PREADY)
 - Memory (256 x 32) connected behind the slave (WR, RD, ADDR_WR, ADDR_RD, DIN, DOUT)
 - APB master (bridge model) with a simple start/done command interface
-- Verilog testbench: directed + random tests with automatic PASS/FAIL checking
+- Verilog testbench: directed + random tests with automatic PASS/FAIL checking<img width="1366" height="768" alt="apbslave1 jpeg" src="https://github.com/user-attachments/assets/589ededb-d883-4269-b072-8dc8a9d4492a" />
+<img width="1366" height="768" alt="apbslave1 jpeg" src="https://github.com/user-attachments/assets/cfa93672-1f9e-4e31-9563-d9d01818260e" />
+
 - UVM environment: sequence item, sequences, sequencer, driver, monitor, agent,
   scoreboard (reference memory model), environment, test
 
